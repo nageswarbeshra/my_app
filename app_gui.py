@@ -7,7 +7,7 @@ import sys
 CURRENT_VERSION = "1.0.0"
 
 # 🔗 Change this to your GitHub raw version.json
-VERSION_URL = "https://raw.githubusercontent.com/username/repo/main/version.json"
+VERSION_URL = "https://github.com/nageswarbeshra/my_app/blob/main/version.json"
 
 
 def check_update():

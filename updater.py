@@ -3,7 +3,7 @@ import os
 import sys
 from utils.downloader import download_file
 
-VERSION_URL = "https://raw.githubusercontent.com/username/repo/main/version.json"
+VERSION_URL = "https://github.com/nageswarbeshra/my_app/blob/main/version.json"
 
 def check_update_and_download(current_version):
     try:
