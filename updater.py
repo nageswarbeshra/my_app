@@ -11,7 +11,7 @@ def check_update_and_download(current_version):
         latest_version = data["version"]
 
         if latest_version != current_version:
-            download_file(data["url"], "new_app.exe")
+            download_file(data["url"], "app_gui.exe")
             replace_and_restart()
             return True
     except Exception as e:
